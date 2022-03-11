@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
-* main - entry point
-* Return: 0
+*main - entry point
+*
+*Return: returns 0
 */
 int main(void)
 {
-	int myNum;
-	
-	for (myNum = 0; myNum <= 9; myNum++)
-		printf("%i", myNum);
+	int digit;
+
+	for (digit = '0'; digit <= '9'; digit++)
+	{
+		putchar(digit);
+	}
 	putchar('\n');
 	return (0);
 }
