@@ -7,6 +7,7 @@
 int main(void)
 {
 	int myNum;
+	
 	for (myNum = 0; myNum <= 9; myNum++)
 	{
 		printf("%d", myNum);
