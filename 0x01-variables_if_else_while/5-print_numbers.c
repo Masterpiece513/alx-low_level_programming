@@ -8,9 +8,7 @@ int main(void)
 	int myNum;
 	
 	for (myNum = 0; myNum <= 9; myNum++)
-	{
-		printf("%d", myNum);
-	}
+		printf("%i", myNum);
 	putchar('\n');
 	return (0);
 }
