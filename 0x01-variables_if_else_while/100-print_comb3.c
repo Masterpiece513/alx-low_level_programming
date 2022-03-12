@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: print only the smallest possible combinations of two digit numbers
+ * Description: print the smallest possible combinations of two digit
  * numbers must be seperated by a comma and a space
  * Return: 0
  */
@@ -14,7 +14,6 @@ int main(void)
 	{
 		b = a % 10;
 		c = a / 10;
-		
 		if (c < b)
 		{
 			putchar(c + '0');
