@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - entry point
+ *_isalpha - checks if a character is alphabet
+ *@c: input to be verified
  * Return: 1 if c is a letter, upper or lower
  */
 int _isalpha(int c)
@@ -10,4 +11,3 @@ int _isalpha(int c)
 	else
 		return (0);
 }
-
