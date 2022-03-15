@@ -4,7 +4,7 @@
  * @n: input value
  * Return: returns 0
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int last = n % 10;
 	if (last < 0)
