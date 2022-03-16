@@ -9,11 +9,11 @@ int main(void)
 	int next_num;
 
 	printf("%d, ", num1);
-	for (i <= 98; i++)
+	while (i <= 98)
 	{
 		if (i == 98)
 		{
-			printf("%d, ", num2);
+			printf("%d\n", num2);
 		}
 		else
 		{
@@ -22,7 +22,7 @@ int main(void)
 		next_num = num2;
 		num2 += num1;
 		num1 = next_num;
+		i++;
 	}
 	return (0);
 }
-
