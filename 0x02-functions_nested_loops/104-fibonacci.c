@@ -14,11 +14,11 @@ int main(void)
 	{
 		if (i == 98)
 		{
-			printf("%ld\n", num2);
+			printf("%ld\n", next_num);
 		}
 		else
 		{
-			printf("%ld, ", num2);
+			printf("%ld, ", next_num);
 		}
 		next_num = num1 + num2;
 		num1 = num2;
