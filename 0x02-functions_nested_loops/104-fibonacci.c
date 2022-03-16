@@ -5,24 +5,24 @@
  */
 int main(void)
 {
-	int  i = 0;
-	long int num1 = 1, num2 = 2;
-	long int next_num = 0;
+	int  i ;
+	long int num1 = 0, num2 = 1;
+	long int next_num;
 
-	while (i <= 98)
+	for (i = 0; i <= 98; i++)
 	{
-		if (i == 98)
+		next_num = num1 + num2;
+		printf("%ld", next_num);
+		num1 = num2;
+		num2 = next_num;
+		if (i == 97)
 		{
-			printf("%ld\n", num1);
+			printf("\n");
 		}
 		else
 		{
-			printf("%ld, ", num1);
+			printf(", ");
 		}
-		next_num = num1 + num2;
-		num1 = num2;
-		num2 = next_num;
-		i++;
 	}
 	return (0);
 }
