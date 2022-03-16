@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - print the sum of even Fibonacci numbers
  * up to 4000000
@@ -17,4 +17,4 @@ int main(void)
 	}
 	printf("%ld\n", sum);
 	return (0);
-}	
+}
