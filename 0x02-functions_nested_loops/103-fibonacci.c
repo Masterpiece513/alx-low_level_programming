@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i = 1, j = 2, k = 0, sum = 0;
+	long int i = 1, j = 2, k = 0, sum = 0;
 	while (j <= 4000000)
 	{
 		if ((j % 2) == 0)
