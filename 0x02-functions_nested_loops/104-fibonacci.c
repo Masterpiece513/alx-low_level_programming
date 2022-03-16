@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int  i ;
+	int  i;
 	long int num1 = 0, num2 = 1;
 	long int next_num;
 
