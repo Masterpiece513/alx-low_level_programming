@@ -7,22 +7,22 @@ int main(void)
 {
 	int count = 2;
 	long int i = 1, j = 2;
-	long int k = 0;
+	long int k;
 
-	printf("%ld, ", i);
+	printf("%lu, ", i);
 	while (count <= 50)
 	{
 		if (count == 50)
 		{
-			printf("%ld\n", j);
+			printf("%lu\n", j);
 		}
 		else
 		{
-			printf("%ld, ", j);
+			printf("%lu, ", j);
 		}
-		k = i + j;
-		i = j;
-		j = k;
+		k = j;
+		j += i;
+		i = k;
 		count++;
 	}
 	return (0);
