@@ -5,7 +5,7 @@
  */
 void print_diagonal(int n)
 {
-	int count, space;
+	int count = 0, space;
 
 	if (n > 0)
 	{
@@ -16,10 +16,8 @@ void print_diagonal(int n)
 				_putchar(' ');
 			}
 			_putchar('\\');
-			if (count == (n-1))
-				continue;
 			_putchar('\n');
-			count++
+			count++;
 		}
 	}
 	else
