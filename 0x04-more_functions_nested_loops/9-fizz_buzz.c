@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	while (i++ <= 100)
+	while (i++ < 100)
 	{
 		if (i % 15 == 0)
 		{
