@@ -20,11 +20,10 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			if (i != 100)
-				printf("Buzz ");
-			else
-				printf("Buzz");
+			printf("Buzz ");
 		}
+		else if (i != 100)
+			printf("Buzz");
 		else
 		{
 			printf("%i ", i);
