@@ -16,7 +16,7 @@ int main(void)
 		}
 		else if ((i % 3) == 0)
 		{
-			pintf("Fizz ");
+			printf("Fizz ");
 		}
 		else if ((i % 5) == 0)
 		{
@@ -35,4 +35,3 @@ int main(void)
 	printf('\n');
 	return (0);
 }
-
