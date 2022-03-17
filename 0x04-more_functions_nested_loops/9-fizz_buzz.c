@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	while (i++ <= 100)
 	{
 		if (i % 15 == 0)
 		{
