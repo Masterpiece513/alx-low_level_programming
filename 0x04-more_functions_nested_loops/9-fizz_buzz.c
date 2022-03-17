@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int n, i;
+	int i;
 
-	for (n = 1; n <= 100; n++)
+	for (i = 1; i <= 100; i++)
 	{
 		for (i = 1; i <= 99; i++)
 		{
@@ -29,7 +29,7 @@ int main(void)
 				printf("%i ", i);
 			}
 		}
-		if (n == 100)
+		if (i == 100)
 		{
 			printf("Buzz");
 		}
