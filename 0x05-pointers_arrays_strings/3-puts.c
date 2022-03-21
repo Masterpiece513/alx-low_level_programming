@@ -4,7 +4,7 @@
  * @str: input string
  * Return: 0
  */
-void _puts(char *s)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
