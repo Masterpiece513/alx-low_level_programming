@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+ * puts2 - prints a part of a string
+ * @str: input string
+ * Return: 0
+ */
+void puts(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+			i++;
+		}
+	}
+	_putchar('\n');
+}
+
