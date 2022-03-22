@@ -9,8 +9,7 @@ int _atoi(char *s)
 	int i = 1;
 	unsigned int num = 0;
 
-	do
-	{
+	do {
 		if (*s == '-')
 		{
 			i *= -1;
@@ -23,8 +22,7 @@ int _atoi(char *s)
 		{
 			break;
 		}
-	}
-	while (*s++);
-	return (num *i);
+	} while (*s++);
+	return (num * i);
 }
 
