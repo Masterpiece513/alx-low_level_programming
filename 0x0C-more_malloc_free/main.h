@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define min(x, y) (((x) < (y)) ? (x) : (y))
+
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
@@ -13,4 +15,11 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+int len(char *str);
+int find_len(char *str);
+char *create_xarray(int size);
+char *iterate_zeroes(char *str);
+void get_prod(char *prod, char *mult, int digit, int zeroes);
+void add_nums(char *final_prod, char *next_prod, int next_len);
+
 #endif
